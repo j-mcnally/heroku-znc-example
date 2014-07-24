@@ -9,7 +9,7 @@ https://github.com/j-mcnally/znc-buildpak
 
 Set the app's ngrok api key
 
-`heroku config:set NGROK_API_KEY=[API_KEY]
+`heroku config:set NGROK_API_KEY=[API_KEY]`
 
 Set the app's build pack with
 
