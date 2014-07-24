@@ -7,6 +7,10 @@ See the buildpack for details.
 
 https://github.com/j-mcnally/znc-buildpak
 
+Set the app's ngrok api key
+
+`heroku config:set NGROK_API_KEY=[API_KEY] --app znc-bounder`
+
 Set the app's build pack with
 
 `heroku config:set BUILDPACK_URL=https://github.com/j-mcnally/znc-buildpak`
